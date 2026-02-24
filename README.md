@@ -1,13 +1,13 @@
-# 📊 Pretrained Text Generation Model Selection using TOPSIS
+# Pretrained Text Generation Model Selection using TOPSIS
 
-## 📌 Objective
+##  Objective
 The objective of this project is to evaluate multiple pretrained text generation models 
 from Hugging Face and select the best model using the TOPSIS (Technique for Order Preference 
 by Similarity to Ideal Solution) method.
 
 ---
 
-## 🤖 Models Evaluated
+##  Models Evaluated
 The following pretrained models were evaluated:
 
 1. GPT-2  
@@ -18,7 +18,7 @@ The following pretrained models were evaluated:
 
 ---
 
-## 🧪 Evaluation Criteria
+##  Evaluation Criteria
 
 The models were evaluated based on the following criteria:
 
@@ -31,7 +31,7 @@ The models were evaluated based on the following criteria:
 
 ---
 
-## ⚖️ Weights Assigned
+##  Weights Assigned
 
 | Criteria        | Weight |
 |-----------------|--------|
@@ -42,7 +42,7 @@ The models were evaluated based on the following criteria:
 
 ---
 
-## 📊 Decision Matrix
+##  Decision Matrix
 
 | Model | Time | Length | Repetition | Size |
 |-------|------|--------|------------|------|
@@ -54,7 +54,7 @@ The models were evaluated based on the following criteria:
 
 ---
 
-## 🧮 TOPSIS Methodology
+##  TOPSIS Methodology
 
 The following steps were applied:
 
@@ -75,7 +75,7 @@ Where:
 
 ---
 
-## 📈 Results
+##  Results
 
 Best Model Selected:
 
@@ -86,14 +86,14 @@ Dataset Used: Custom Prompt
 
 ---
 
-## 📊 Ranking Graph
+##  Ranking Graph
 
 <img width="454" height="458" alt="image" src="https://github.com/user-attachments/assets/9f818b48-ba0b-4daf-8458-23fd6d8e6f3e" />
 
 
 ---
 
-## 🏆 Conclusion
+##  Conclusion
 
 Based on the multi-criteria decision analysis using TOPSIS, 
 **GPT-Neo 125M** was found to be the most suitable pretrained 
@@ -103,7 +103,7 @@ The selection balances efficiency, quality, and model complexity.
 
 ---
 
-## 🧠 Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python
 - Hugging Face Transformers
